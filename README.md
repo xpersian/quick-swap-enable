@@ -4,7 +4,16 @@ A small Bash script that creates and enables a **3 GiB Linux swap file** in one 
 
 ## Usage
 
-Download and run:
+### One command
+
+Run directly from GitHub:
+
+\`\`\`bash
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/xpersian/quick-swap-enable/main/enable-swap.sh)"
+\`\`\`
+
+### Download and run
+
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/xpersian/quick-swap-enable/main/enable-swap.sh -o enable-swap.sh
